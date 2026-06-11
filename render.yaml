@@ -8,7 +8,3 @@ services:
     envVars:
       - key: N8N_SECURE_COOKIE
         value: "false"
-    disk:
-      name: n8n-storage
-      mountPath: /home/node/.n8n
-      sizeGB: 1
